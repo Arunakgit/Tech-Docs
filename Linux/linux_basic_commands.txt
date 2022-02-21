@@ -1,0 +1,60 @@
+Monitoring commands:
+==========================
+top                        --> montion server resources and running process via cmd prompt.
+topas                      --> montion server resources and running process via cmd prompt for AIX.
+ps aux k-pcpu | head -5    --> to check top 5 cpu process utilization.
+du -sh /home/* | sort -r | head -5 --> top 5 user folder utilization
+df -Th                     --> to check the disk space
+du -sh                     --> to check file or directory size
+top                        --> to check over all process montoring
+top -o %MEM                --> to sort the memory usage higher to lower
+top -b -n 1 | head -n 12  | tail -n 5
+ps aux | sort -nrk 3,3 | head -n 5
+ps aux k-pcpu | head -6    --> to check top cpu usage with process vice
+ps aux --sort -rss | head  --> top memory usage
+uptime -s and uptime       --> to check server uptime
+w                          --> no of user logged in
+free -h                    --> to check memory avilable details.      
+svmon -G                   --> to check memory usage in AIX     
+topas -P                   --> cpu in AIX      
+prstat -a -s size          --> to memory usage
+nc -zv ip port             --> telnet alternative command
+ip r                       --> to check ip address
+last reboot | less         --> to check recent reboot 
+who -b                     --> to check recent reboot
+last shutdown              --> to check recent shutdown
+ps -ef | grep filebeat     --> to view process details.
+history  , history -C      --> to check the command history and clear command history
+cp -i file1 /myfolder      --> copy files 
+mv file1 /myfolder         --> mv files or folders
+pwd                        --> to check preset working directory
+rm -i file				         --> to remove the files or folder
+mkdir myfolder			       --> to create the folder
+touch file1				         --> to create file
+cat file1 				         --> to view the file
+cat > file2                --> create a file and add content 
+cat >> file2               --> contents of the test file will be appended at the end of the file2
+vim/vi file 			         --> to view and edit the file
+cat install.log | less     --> to view less info of the file
+cat install.log | more     --> to view more info of the file
+head -n 5 file1            --> to view first 5 lines of the file
+tail -n 3 file1            --> to view last last 3 lines of this file
+netstat -tnulp | grep LISTEN --> to view all listening ports
+tail -n 100 /var/log/httpd/access_log --> to view the current udating logs
+cat /etc/redhat-release   --> to check linux flavour info
+prtconf                   --> AIX command to check hardware information like cpu core, memory allocation
+jobs -l                   --> to check what are the process paused
+fg                        --> to resume the process
+cat /proc/sys/kernel/hostname --> command to check machine name
+cat /proc/cpuinfo            --> to check cpu core and over all harware info
+crontab -e                   --> to schedlue new cron job
+crontab -l                   --> to view cronlob info
+rsync                        --> used to transfer file from one host to another.
+scp                          --> used to transfer file from one host to another.
+uname                        --> it used to get kernel infomation and on so.
+diff                         --> it is used to compare two files.
+chown                        --> used to set ownership for any specific files or folders
+chmod                        --> used to set specific permission for any files or folders (read,write,execute)
+wget                         --> it is used to download the files from internet via command prompt.
+zip                          --> it is used to compress the large files.
+unzip                        --> it is used to extract the zipped files.
