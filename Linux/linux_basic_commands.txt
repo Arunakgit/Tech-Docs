@@ -32,7 +32,7 @@ rm -i file				         --> to remove the files or folder
 mkdir myfolder			       --> to create the folder
 touch file1				         --> to create file
 cat file1 				         --> to view the file
-cat > file2                --> create a file and add content 
+cat > file2                --> create a file and add content
 cat >> file2               --> contents of the test file will be appended at the end of the file2
 vim/vi file 			         --> to view and edit the file
 cat install.log | less     --> to view less info of the file
