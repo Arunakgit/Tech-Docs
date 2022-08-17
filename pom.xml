@@ -5,10 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>webapp</groupId>
-    <artifactId>webapps</artifactId>
+    <artifactId>webapp</artifactId>
     <packaging>war</packaging>
-    <version>1.0</version>
-    <name>webapps</name>
+    <name>webapp</name>
     <url>http://maven.apache.org</url>
 
 
