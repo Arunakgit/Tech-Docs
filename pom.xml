@@ -7,6 +7,7 @@
     <groupId>webapp</groupId>
     <artifactId>webapp</artifactId>
     <packaging>war</packaging>
+    <version>1.0</version>
     <name>webapp</name>
     <url>http://maven.apache.org</url>
 
