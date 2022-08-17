@@ -1,2 +1,2 @@
-# Tech-Docs
-AWS and Linux Technical documents
+# AWS Cloud and Devops for beginners
+AWS cloud, devops and Linux 
